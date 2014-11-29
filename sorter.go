@@ -3,7 +3,7 @@
 // Instead of sorting actual data it produces a sorted slice of data indices.
 package sorter
 
-// CreateIndex produces an slice of data element indices sorted using given function.
+// CreateIndex produces a slice of data element indices sorted using given function.
 // The dataLen parameter is the length of data to sort.
 // The lessFunc parameter is a function that is used to compare two elements with indexes i and j.
 func CreateIndex(dataLen int, lessFunc func(i, j int) bool) []int {
